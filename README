@@ -1,0 +1,25 @@
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make install
+   make testdb
+
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+DBI >= 1.50,
+Test::More >= 0.7,
+Module::Build >= 0.2808,
+Test::Pod >=  1.26,
+Test::Pod::Coverage >=  0.55,
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2006-2007 by Hr. Dirk Lindner 
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details. 
+ 

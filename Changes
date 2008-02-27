@@ -1,0 +1,18 @@
+Revision history for Perl extension DBI::Library. 0.27
+0.27
+        Overwrought Docs and clean up code, fix build System
+0.25 
+        a few fixes
+
+0.24
+        a lot.
+0.2.1
+        renamed from LZE::Database to DBI::Library,
+        new Syntax ...
+0.2.0
+	refactoring.
+0.1.2
+	a lot !
+0.01  Sun Jan 22 01:37:35 2006
+	- original version; created by h2xs 1.23 with options
+		-XAn DBI::Library

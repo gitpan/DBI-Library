@@ -1,0 +1,27 @@
+---
+name: DBI-Library
+version: 0.27
+author:
+  - 'Dirk Lindner <lze@cpan.org>'
+abstract: A simple DBI subclass
+license: lgpl
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+requires:
+  DBI: '>=1.50'
+  Module::Build: '>=0.2808'
+  Test::More: '>=0.7'
+  Test::Pod: '>=1.26'
+  Test::Pod::Coverage: '>=0.55'
+provides:
+  DBI::Library:
+    file: lib/DBI/Library.pm
+    version: 0.27
+  DBI::Library::db:
+    file: lib/DBI/Library.pm
+  DBI::Library::st:
+    file: lib/DBI/Library.pm
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
